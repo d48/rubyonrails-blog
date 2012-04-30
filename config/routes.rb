@@ -1,4 +1,8 @@
 RailsBlog::Application.routes.draw do
+  resources :posts
+
+  get "about/index"
+
   get "home/index"
 
   # The priority is based upon order of creation:
